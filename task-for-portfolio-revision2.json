@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:642763119977:task-definition/task-for-portfolio:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:642763119977:task-definition/task-for-portfolio:2",
     "containerDefinitions": [
         {
             "name": "portfolio",
@@ -39,7 +39,7 @@
     "taskRoleArn": "arn:aws:iam::642763119977:role/LabRole",
     "executionRoleArn": "arn:aws:iam::642763119977:role/LabRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -82,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2025-01-22T17:26:43.465Z",
+    "registeredAt": "2025-01-23T03:28:03.457Z",
     "registeredBy": "arn:aws:sts::642763119977:assumed-role/voclabs/user3514433=Sunil_Kumar_Ashokan",
     "enableFaultInjection": false,
     "tags": []
